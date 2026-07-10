@@ -1,0 +1,62 @@
+---
+type: guide
+updated: 2026-07-10
+---
+
+# Setup — Connecting Claude to This Vault
+
+Do this once per machine. To move the vault, copy the whole folder
+(skip `.obsidian/` — Obsidian recreates it).
+
+## 1. The system prompt
+
+The full prompt lives in `SYSTEM-PROMPT.md` (vault root). Copy its code
+block into Claude Desktop → Settings → Profile → the "preferences" box
+(applies to every chat). It embeds the folder rubric so Claude knows the
+structure even before reading INDEX.md, which stays authoritative.
+
+## 2a. File access, Option A (recommended): Filesystem extension
+
+No Obsidian needed; works even when Obsidian is closed.
+
+1. Claude Desktop → Settings → Extensions → install "Filesystem".
+2. In its settings, add this vault's folder as an allowed directory.
+3. Approve the permission prompts — read/write, this folder only.
+
+## 2b. Option B: mcp-obsidian (routes through Obsidian instead)
+
+Adds vault search via Obsidian, but needs Obsidian running, the
+"Local REST API" community plugin, and `uv` installed. More moving
+parts — prefer Option A for non-technical users.
+
+1. Obsidian → Settings → Community plugins → install and enable
+   "Local REST API with MCP" (by Adam Coddington); copy the API key
+   shown in its Options page.
+2. Edit `~/Library/Application Support/Claude/claude_desktop_config.json`
+   (Windows: `%APPDATA%/Claude/claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "mcp-obsidian": {
+      "command": "uvx",
+      "args": ["mcp-obsidian"],
+      "env": {
+        "OBSIDIAN_API_KEY": "<key from the plugin settings>",
+        "OBSIDIAN_HOST": "127.0.0.1",
+        "OBSIDIAN_PORT": "27124"
+      }
+    }
+  }
+}
+```
+
+3. Restart Claude Desktop. If it can't find `uvx`, replace `"uvx"` with
+   the full path printed by `which uvx`.
+
+Source: https://github.com/MarkusPfundstein/mcp-obsidian
+
+## 3. Test it
+
+Ask Claude: "What's blocked right now?" It should read the vault and answer:
+the website relaunch, waiting on photographer photos.
