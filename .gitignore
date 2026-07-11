@@ -1,2 +1,5 @@
-.obsidian/
+# Obsidian recreates everything here except app.json, which we ship:
+# it makes Obsidian write standard markdown links instead of [[wikilinks]].
+.obsidian/*
+!.obsidian/app.json
 .DS_Store

@@ -1,12 +1,17 @@
 ---
 type: guide
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # Setup — Connecting Claude to This Vault
 
-Do this once per machine. To move the vault, copy the whole folder
-(skip `.obsidian/` — Obsidian recreates it).
+Do this once per machine. To move the vault, copy the whole folder,
+including `.obsidian/app.json` — that one file tells Obsidian to write
+standard markdown links instead of `[[wikilinks]]`, which the vault's
+conventions depend on. Everything else in `.obsidian/` is recreated.
+(If the file goes missing, the same settings live in Obsidian →
+Settings → Files and links: turn `Use [[Wikilinks]]` off and set
+`New link format` to "Relative path to file".)
 
 ## 1. The system prompt
 

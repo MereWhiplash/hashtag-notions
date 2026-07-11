@@ -28,7 +28,8 @@ in `04-Meetings`, decisions in `03-Decisions`, facts about people in
    will put it in the right place.
 2. **Ask for a weekly review.** Once a week, say "do a vault review." Claude
    will empty `00-Inbox` into the right folders, close finished workstreams,
-   and flag anything stale.
+   flag anything stale, and tidy any notes that drifted from the format
+   (a stray wikilink, a missing `type`, a link pointing nowhere).
 3. **Never edit the frontmatter keys.** The block between `---` lines at the
    top of each file is how Claude tracks status. Change the *values* (like a
    due date) whenever you want, but leave the words before the colons alone.

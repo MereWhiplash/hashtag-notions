@@ -32,6 +32,8 @@ SETUP.md               connector setup, both options
 05-Reference/          stable facts, low drama
 06-Knowledge/          learnings, one topic per note, summary first
 _templates/            copy these when creating files
+_scripts/              the vault linter — CI runs it so you don't have to
+.obsidian/app.json     makes Obsidian write markdown links, not [[wikilinks]]
 ```
 
 ## Getting started
