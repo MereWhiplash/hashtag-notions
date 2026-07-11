@@ -1,10 +1,11 @@
 ---
+type: meeting
 date: 2026-07-08
 ---
 
 # Weekly Studio Sync
 
-Attendees: [[June Park]], [[Marco Esposito]]
+Attendees: [June Park](../02-People/June%20Park.md), [Marco Esposito](../02-People/Marco%20Esposito.md)
 
 ## Notes
 
@@ -19,10 +20,10 @@ Attendees: [[June Park]], [[Marco Esposito]]
 ## Decisions
 
 - Switch Harborview flooring to Cascadia Hardwoods:
-  [[2026-07-08-harborview-flooring-supplier]]
+  [2026-07-08-harborview-flooring-supplier](../03-Decisions/2026-07-08-harborview-flooring-supplier.md)
 
 ## Actions
 
-- Maya: send [[Dana Whitfield]] the flooring change for sign-off by 07-11.
+- Maya: send [Dana Whitfield](../02-People/Dana%20Whitfield.md) the flooring change for sign-off by 07-11.
 - Marco: revised flooring quote by 07-14.
 - June: final photo chase; propose reshoot fallback if nothing by 07-15.

@@ -9,9 +9,9 @@ confidence: working
 One-sentence summary of the note — always the first body line.
 
 The substance, in short paragraphs or bullets. One topic per note; if it
-grows past ~80 lines or covers two topics, split it and wikilink the halves.
+grows past ~80 lines or covers two topics, split it and link the halves.
 
 ## Related
 
-- [[Another Knowledge Note]]
-- [[Relevant Person or Decision]]
+- [Another Knowledge Note](another-knowledge-note.md)
+- [Relevant Person or Decision](../02-People/Firstname%20Lastname.md)

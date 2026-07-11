@@ -1,4 +1,5 @@
 ---
+type: person
 role: their role
 org: their organisation
 last-contact: YYYY-MM-DD

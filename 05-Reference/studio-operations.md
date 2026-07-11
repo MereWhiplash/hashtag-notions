@@ -11,13 +11,13 @@ Stable facts about how Larkspur Interiors runs day to day.
 
 - Banking: Pacific Crest Bank, business checking (June reconciles weekly).
 - Books: QuickBooks Online — June owns it; owner has view access.
-- Website: Squarespace (relaunch in progress — see [[website-relaunch]]).
+- Website: Squarespace (relaunch in progress — see [website-relaunch](../01-Active/website-relaunch.md)).
 - File storage: Google Drive, one folder per client project.
 
 ## Recurring processes
 
 - Invoicing: 50% deposit on signing, balance on delivery
-  (per [[2026-06-24-no-net-30-for-new-clients]]).
+  (per [2026-06-24-no-net-30-for-new-clients](../03-Decisions/2026-06-24-no-net-30-for-new-clients.md)).
 - Weekly studio sync: Tuesdays 9:00, notes filed to 04-Meetings.
 - Supplier orders: June places them Mondays; anything urgent goes through
   the owner.

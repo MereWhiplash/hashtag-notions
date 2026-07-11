@@ -8,7 +8,7 @@ confidence: working
 
 Quoted supplier lead times are unreliable — plan around stocked items where possible and pad any made-to-order quote by at least 50%.
 
-Pattern observed across 2025–2026 projects, mostly via [[Marco Esposito]]:
+Pattern observed across 2025–2026 projects, mostly via [Marco Esposito](../02-People/Marco%20Esposito.md):
 
 - Made-to-order fabric and flooring quotes routinely run 30–70% over the
   quoted lead time (Meridian's "6 weeks" became 9 on Harborview).
@@ -21,5 +21,5 @@ Harborview flooring delivery lands.
 
 ## Related
 
-- [[trade-pricing-programs]]
-- [[2026-07-08-harborview-flooring-supplier]]
+- [trade-pricing-programs](trade-pricing-programs.md)
+- [2026-07-08-harborview-flooring-supplier](../03-Decisions/2026-07-08-harborview-flooring-supplier.md)

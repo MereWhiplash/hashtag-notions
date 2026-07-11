@@ -1,4 +1,5 @@
 ---
+type: person
 role: general contractor
 org: Esposito Builders
 last-contact: 2026-07-08
@@ -14,7 +15,7 @@ Harborview Loft build.
 Reliable on schedule, conservative on estimates — pads timelines by ~15%, so
 his "six weeks" is usually five. Has a standing crew of four. Knows fabric
 and flooring supplier lead times better than anyone we work with (see
-[[fabric-lead-times]]).
+[fabric-lead-times](../06-Knowledge/fabric-lead-times.md)).
 
 ## Preferences
 

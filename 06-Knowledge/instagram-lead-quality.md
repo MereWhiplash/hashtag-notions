@@ -18,8 +18,8 @@ Hunch, not yet backed by real numbers:
   (portfolio depth, testimonials) over inquiry capture.
 
 Needs a proper count of inquiry sources before acting on it — revisit once
-the [[website-relaunch]] ships and we can track where forms come from.
+the [website-relaunch](../01-Active/website-relaunch.md) ships and we can track where forms come from.
 
 ## Related
 
-- [[client-onboarding-lessons]]
+- [client-onboarding-lessons](client-onboarding-lessons.md)

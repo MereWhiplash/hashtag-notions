@@ -11,7 +11,7 @@ New clients need payment terms, revision limits, and a single point of contact a
 Lessons from spring 2026 onboardings:
 
 - Two clients paid 45+ days late on net-30 — led to
-  [[2026-06-24-no-net-30-for-new-clients]].
+  [2026-06-24-no-net-30-for-new-clients](../03-Decisions/2026-06-24-no-net-30-for-new-clients.md).
 - Unlimited-revision expectations came from us never stating a limit; the
   contract now says two revision rounds per phase.
 - Projects with two household decision-makers stall unless one is named
@@ -20,5 +20,5 @@ Lessons from spring 2026 onboardings:
 
 ## Related
 
-- [[2026-06-24-no-net-30-for-new-clients]]
-- [[Dana Whitfield]]
+- [2026-06-24-no-net-30-for-new-clients](../03-Decisions/2026-06-24-no-net-30-for-new-clients.md)
+- [Dana Whitfield](../02-People/Dana%20Whitfield.md)

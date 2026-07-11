@@ -22,4 +22,4 @@ Rules of thumb:
 
 ## Related
 
-- [[fabric-lead-times]]
+- [fabric-lead-times](fabric-lead-times.md)

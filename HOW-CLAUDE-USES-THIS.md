@@ -1,6 +1,6 @@
 ---
 type: guide
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # How Claude Uses This Vault
@@ -32,6 +32,17 @@ in `04-Meetings`, decisions in `03-Decisions`, facts about people in
 3. **Never edit the frontmatter keys.** The block between `---` lines at the
    top of each file is how Claude tracks status. Change the *values* (like a
    due date) whenever you want, but leave the words before the colons alone.
+
+## The format
+
+The vault follows the [Open Knowledge Format
+(OKF)](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf):
+every note is a markdown file with a YAML frontmatter block whose first key
+is `type`, and notes reference each other with ordinary markdown links
+(`[June Park](02-People/June%20Park.md)`), not `[[wikilinks]]`. Obsidian
+reads both styles happily; sticking to the standard one means the vault also
+works in any editor, on GitHub, and with any OKF-aware tool — no lock-in,
+which was rather the point.
 
 ## If something looks wrong
 

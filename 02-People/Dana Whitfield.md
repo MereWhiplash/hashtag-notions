@@ -1,4 +1,5 @@
 ---
+type: person
 role: client
 org: private client — Harborview Loft
 last-contact: 2026-07-07
@@ -24,5 +25,5 @@ Decision-maker is Dana alone; partner defers on all design choices.
 ## Open threads
 
 - Waiting on her sign-off for the flooring change (see
-  [[2026-07-08-harborview-flooring-supplier]]).
+  [2026-07-08-harborview-flooring-supplier](../03-Decisions/2026-07-08-harborview-flooring-supplier.md)).
 - Promised her a lighting plan revision by 2026-07-17.

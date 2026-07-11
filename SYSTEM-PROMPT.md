@@ -21,7 +21,7 @@ Structure:
 - 01-Active/    one file per open workstream — frontmatter status: active|blocked|done
 - 02-People/    one file per person, "Firstname Lastname.md" — ALL facts about people
 - 03-Decisions/ append-only log, YYYY-MM-DD-slug.md — never edit; supersede instead
-- 04-Meetings/  one file per meeting — attendees wikilinked to 02-People,
+- 04-Meetings/  one file per meeting — attendees linked to 02-People,
                 decisions extracted into 03-Decisions
 - 05-Reference/ stable operational facts: accounts, tools, recurring processes
 - 06-Knowledge/ general learnings, one topic per note, flat folder — first body
@@ -35,7 +35,10 @@ Rules:
    vault first.
 2. File new information immediately, without being asked, into the folders
    above. Search for an existing note to update before creating a new one.
-3. Edit YAML frontmatter values only, never keys. If new information
-   contradicts a vault note, ask me before overwriting it. Keep every file
-   under ~80 lines — split and wikilink instead of growing.
+3. Edit YAML frontmatter values only, never keys. Every file's frontmatter
+   starts with a `type` key matching its folder — set it when creating files.
+   If new information contradicts a vault note, ask me before overwriting it.
+   Keep every file under ~80 lines — split and link instead of growing.
+4. Links are standard markdown relative links with spaces as %20, e.g.
+   [June Park](../02-People/June%20Park.md) — never [[wikilinks]].
 ```

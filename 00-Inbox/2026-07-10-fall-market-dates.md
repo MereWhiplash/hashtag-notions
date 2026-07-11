@@ -1,4 +1,5 @@
 ---
+type: inbox-item
 captured: 2026-07-10
 file-to: 05-Reference
 ---

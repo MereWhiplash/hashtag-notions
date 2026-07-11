@@ -1,4 +1,5 @@
 ---
+type: person
 role: studio manager (part-time)
 org: Larkspur Interiors
 last-contact: 2026-07-08
@@ -13,7 +14,7 @@ supplier orders, and the project calendar.
 
 Joined January 2026. Has taken over all QuickBooks work and supplier
 follow-ups. Owns the website relaunch workstream (currently blocked — see
-[[website-relaunch]]).
+[website-relaunch](../01-Active/website-relaunch.md)).
 
 ## Preferences
 

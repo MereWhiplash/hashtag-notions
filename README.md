@@ -43,6 +43,17 @@ _templates/            copy these when creating files
 4. Ask Claude "what's blocked right now?" — it should tell you about the
    photographer. Then delete the fictional demo data and live your life.
 
+## The format
+
+Every note is markdown with YAML frontmatter (first key: `type`), linked
+with ordinary markdown links. This makes the vault a conforming [Open
+Knowledge Format
+(OKF)](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf)
+bundle, which is a grand way of saying it works in Obsidian, on GitHub, in
+a text editor from 1987, and in whatever tool replaces all of these. The
+vault has no opinion about where it lives, which is more than can be said
+for your Notion export.
+
 ## The three rules
 
 - Say **"file that"** when something matters, and it gets remembered.

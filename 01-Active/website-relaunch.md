@@ -1,4 +1,5 @@
 ---
+type: workstream
 status: blocked
 owner: June Park
 due: 2026-08-31
@@ -17,7 +18,7 @@ delivered. Nothing else can proceed until images arrive.
 
 ## Next action
 
-[[June Park]] chases Tomas again; if no photos by 2026-07-15, we book a
+[June Park](../02-People/June%20Park.md) chases Tomas again; if no photos by 2026-07-15, we book a
 different photographer for a one-day reshoot.
 
 ## History

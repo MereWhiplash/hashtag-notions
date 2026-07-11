@@ -1,4 +1,5 @@
 ---
+type: inbox-item
 captured: 2026-07-09
 file-to: 02-People
 ---

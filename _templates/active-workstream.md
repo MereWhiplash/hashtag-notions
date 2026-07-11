@@ -1,4 +1,5 @@
 ---
+type: workstream
 status: active
 owner: Name
 due: YYYY-MM-DD

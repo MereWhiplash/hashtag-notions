@@ -1,4 +1,5 @@
 ---
+type: inbox-item
 captured: YYYY-MM-DD
 file-to: unknown
 ---
