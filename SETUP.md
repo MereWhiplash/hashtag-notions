@@ -3,7 +3,7 @@ type: guide
 updated: 2026-07-11
 ---
 
-# Setup — Connecting Claude to This Vault
+# Setup — Connecting Claude or Codex to This Vault
 
 Do this once per machine. To move the vault, copy the whole folder,
 including `.obsidian/app.json` — that one file tells Obsidian to write
@@ -61,7 +61,21 @@ parts — prefer Option A for non-technical users.
 
 Source: https://github.com/MarkusPfundstein/mcp-obsidian
 
-## 3. Test it
+## 3. Codex (CLI and app) — no config needed
 
-Ask Claude: "What's blocked right now?" It should read the vault and answer:
-the website relaunch, waiting on photographer photos.
+Codex loads `AGENTS.md` from the vault root automatically; it carries the
+same rubric as the system prompt, so there is nothing to paste anywhere.
+
+- **Codex CLI:** run `codex` from inside the vault folder
+  (`cd ~/CoS_Vault && codex`). The default `workspace-write` sandbox lets
+  it read and write vault files without extra approvals.
+- **Codex app (macOS/Windows):** add the vault folder as a project /
+  workspace. `AGENTS.md` is picked up when it opens the folder.
+- Optional: if you want the vault available from *any* directory, add a
+  pointer to it in `~/.codex/AGENTS.md` (global instructions). Working
+  inside the folder is simpler and recommended.
+
+## 4. Test it
+
+Ask Claude or Codex: "What's blocked right now?" It should read the vault
+and answer: the website relaunch, waiting on photographer photos.
